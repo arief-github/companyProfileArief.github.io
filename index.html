@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Web Design</title>
+  <!-- our css -->
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/responsive.css">
+  <!-- animate css  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- popup for gallery / magnific popup css file -->
+  <link rel="stylesheet" href="style/magnific-popup.css" />
+  <!-- head icon -->
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="style/owl.carousel.min.css" />
+  <link rel="stylesheet" href="style/owl.theme.default.min.css" />
+  <!-- Font awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Latest compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Magnific popup javascript -->
+  <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+
+  <!-- owl carousel javascript -->
+  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- Untuk Navigasi Bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Responsive Navbar -->
+      <div class="navbar-header">
+        <!-- responsive button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="" class="navbar-brand animate__animated animate__bounceInDown">
+          <!-- MyCompany -->
+          <img src="img/logo.png" alt="myLogo" />
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse wow animate__bounce" data-wow-delay="1.2s" id="navi">
+        <!-- Nav Menu -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#slider" class="smooth-scroll">Home</a></li>
+          <li><a href="#services" class="smooth-scroll">Our Services</a></li>
+          <li><a href="#works" class="smooth-scroll">Works</a></li>
+          <li><a href="#team" class="smooth-scroll">Team</a></li>
+          <li><a href="#testimonial" class="smooth-scroll">About</a></li>
+          <li><a href="#latest" class="smooth-scroll">Blogs</a></li>
+          <li><a href="#contact-areas" class="smooth-scroll">Carrier</a></li>
+          <li><a href="#map" class="location smooth-scroll">Location</a></li>
+        </ul>
+        <!-- Nav Menu -->
+      </div>
+    </div>
+  </nav>
+  <!-- ?Akhir dari Navigasi Bar -->
+
+  <!-- Start Slider Section -->
+  <section class="slider text-center" id="slider">
+    <div class="slider-overlay">
+      <div class="slider-content">
+        <div class="icons">
+          <i class="fa fa-apple" aria-hidden="true"></i>
+          <i class="fa fa-android" aria-hidden="true"></i>
+          <i class="fa fa-windows" aria-hidden="true"></i>
+        </div>
+        <br />
+        <div class="text" id="typing"></div>
+        <div class="cta-div">
+          <a href="" class="btn1">CONTACT US ! </a>
+          <a href="" class="btn2">LEARN TODAY ! </a>
+        </div>
+        <br /><br />
+        <div class="social-networks">
+          <a href="" class="fa fa-facebook"></a>
+          <a href="" class="fa fa-twitter"></a>
+          <a href="" class="fa fa-windows"></a>
+          <a href="" class="fa fa-reddit"></a>
+          <a href="" class="fa fa-linkedin"></a>
+          <a href="" class="fa fa-cog"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Slider Ends -->
+
+  <!-- ! Navbar and Slider end. so next jump to new section -->
+
+  <section class="service-area" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-title text-center wow animate__zoomIn animate__animated" data-wow-delay="1s">
+            <h2><b>SERVICES</b></h2>
+            <p>
+              you can ask the question regarding the issues we will solve that
+              together for sure
+            </p>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <div class="row wow animate__bounceInUp animate__animated" data-wow-duration="1.2s" data-wow-delay="1.5s">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="service-wrap text-center">
+            <!-- ? icon  -->
+            <div class="service-icon">
+              <i class="fa fa-leaf" aria-hidden="true"></i>
+            </div>
+            <h3>Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              voluptas modi laboriosam nam delectus odio!
+            </p>
+          </div>
+        </div>
+        <!-- end box service -->
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="service-wrap text-center">
+            <div class="service-icon">
+              <i class="fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <h3>Support</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              voluptas modi laboriosam nam delectus odio!
+            </p>
+          </div>
+        </div>
+        <!-- end support  -->
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="service-wrap text-center">
+            <div class="service-icon">
+              <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+            <h3>Marketing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              voluptas modi laboriosam nam delectus odio!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="service-wrap text-center">
+            <div class="service-icon">
+              <i class="fa fa-cogs" aria-hidden="true"></i>
+            </div>
+            <h3>Insurance</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              voluptas modi laboriosam nam delectus odio!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="service-wrap text-center">
+            <div class="service-icon">
+              <i class="fa fa-diamond" aria-hidden="true"></i>
+            </div>
+            <h3>Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              voluptas modi laboriosam nam delectus odio!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="service-wrap text-center">
+            <div class="service-icon">
+              <i class="fa fa-cog" aria-hidden="true"></i>
+            </div>
+            <h3>Web Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              voluptas modi laboriosam nam delectus odio!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ! end Service, lets jump to next section -->
+  <section class="work wow animate__fadeIn animate__animated" data-wow-duration="1.3s" data-wow-delay="1.3s" id="works">
+    <br /><br /><br /><br /><br />
+    <div class="container-fluid">
+      <div class="row-no-gutters">
+        <!-- gambar di baris satu -->
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="image-wrapper">
+            <a href="img/p1.jpg">
+              <img src="img/p1.jpg" alt="" class="img-responsive" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="image-wrapper">
+            <a href="img/p2.jpg">
+              <img src="img/p2.jpg" alt="" class="img-responsive" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="image-wrapper">
+            <a href="img/p3.jpg">
+              <img src="img/p3.jpg" alt="" class="img-responsive" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="image-wrapper">
+            <a href="img/p4.jpg">
+              <img src="img/p4.jpg" alt="" class="img-responsive" />
+            </a>
+          </div>
+        </div>
+        <!-- gambar ke baris 2 -->
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="image-wrapper">
+            <a href="img/p4.jpg">
+              <img src="img/p4.jpg" alt="" class="img-responsive" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="image-wrapper">
+            <a href="img/p3.jpg">
+              <img src="img/p3.jpg" alt="" class="img-responsive" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="image-wrapper">
+            <a href="img/p1.jpg">
+              <img src="img/p1.jpg" alt="" class="img-responsive" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="image-wrapper">
+            <a href="img/p2.jpg">
+              <img src="img/p2.jpg" alt="" class="img-responsive" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- !end gallery section -->
+  <br /><br /><br /><br />
+  <section class="teams" id="team">
+    <div class="container text-center wow animate__zoomIn animate__animated" data-wow-duration="1.3s" data-wow-delay="1.3s">
+      <h2><b>MEMBERS</b></h2>
+      <p>
+        You can ask the question regarding the issues we will solve together
+        for sure
+      </p>
+    </div>
+    <br />
+    <div class="container wow animate__backInLeft animate__animated" data-wow-duration="1.2s" data-wow-delay="1.2s">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="team-members" class="owl-carousel owl-theme">
+            <div class="team-member">
+              <img src="img/person1.jpg" alt="" class="img-responsive" />
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">Weston Mckenie</h4>
+                <h4 class="team-member-job">CEO</h4>
+                <ul class="socmed-list">
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-member">
+              <img src="img/person2.jpg" alt="" class="img-responsive" />
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">Ollie Pawlins</h4>
+                <h4 class="team-member-job">Project Management</h4>
+                <ul class="socmed-list">
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-member">
+              <img src="img/person3.jpg" alt="" class="img-responsive" />
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">Lemor Haidara</h4>
+                <h4 class="team-member-job">Organizer Building</h4>
+                <ul class="socmed-list">
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-member">
+              <img src="img/person4.jpg" alt="" class="img-responsive" />
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">Kall Manson</h4>
+                <h4 class="team-member-job">Software Debugger</h4>
+                <ul class="socmed-list">
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-member">
+              <img src="img/person5.jpg" alt="" class="img-responsive" />
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">Ray Murphy</h4>
+                <h4 class="team-member-job">Senior Developer</h4>
+                <ul class="socmed-list">
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                      ></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon icon-gray">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- !end team section -->
+
+  <section class="testimonials" id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center wow animate__fadeInDownBig animate__animated">
+          <br /><br />
+          <h2>
+            <b><u>REVIEWS</u></b>
+          </h2>
+        </div>
+      </div>
+      <br /><br />
+      <div class="row wow animate__fadeInDownBig animate__animated">
+        <div class="col-sm-12">
+          <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+            <br />
+            <ol class="carousel-ind">
+              <li data-target="#carousel-testimonials" data-slide-to="0"></li>
+              <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+              <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active text-center">
+                <img src="img/testimoni1.jpg" alt="" class="center-block wow animate__fadeInDownBig animate__animated" />
+                <h2>Daniel Trevor</h2>
+                <h4>Sr Engineer</h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Ad, in quis ratione aut commodi minima.
+                </p>
+              </div>
+              <div class="item text-center">
+                <img src="img/testimoni2.jpg" alt="" class="center-block" />
+                <h2>Anna Zienski</h2>
+                <h4>Sr Engineer</h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Ad, in quis ratione aut commodi minima.
+                </p>
+              </div>
+              <div class="item text-center">
+                <img src="img/testimoni3.jpg" alt="" class="center-block" />
+                <h2>Josh Matthew</h2>
+                <h4>Sr Engineer</h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Ad, in quis ratione aut commodi minima.
+                </p>
+              </div>
+            </div>
+            <a href="#carousel-testimonials" class="left carousel-control" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" style="background:none;"></span>
+            </a>
+            <a href="#carousel-testimonials" class="right carousel-control" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section of testimonial -->
+  <br /><br />
+  <section class="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center wow animate__zoomIn animate__animated" data-wow-duration=".5s" data-wow-delay=".5s">
+          <h2><b>GENERAL FAQs</b></h2>
+          <div class="sub-heading">
+            <p>
+              You can ask the question regarding the issues we will solve that
+              together for sure
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!-- container for accordion -->
+    <div class="container wow animate__bounceInLeft animate__animated">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading" id="headingOne">
+                <h4 class="panel-title">
+                  <a href="#collapseOne" class="collapsed" data-toggle="collapse" data-parent="#accordion">Have you any question ?</a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse-in" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident , sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- accordion 2 -->
+
+            <div class="panel panel-default">
+              <div class="panel-heading" id="headingTwo">
+                <h4 class="panel-title">
+                  <a href="#collapseTwo" class="collapsed" data-toggle="collapse" data-parent="#accordion">Is it clearly explained ?</a>
+                </h4>
+
+                <div id="collapseTwo" class="panel-collapse collapse" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit, sed do eiusmod tempor incididunt ut labore et
+                      dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex
+                      ea commodo consequat. Duis aute irure dolor in
+                      reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                      non proident , sunt in culpa qui officia deserunt mollit
+                      anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- accordion 3 -->
+
+            <div class="panel panel-default">
+              <div class="panel-heading" id="headingThree">
+                <h4 class="panel-title">
+                  <a href="#collapseThree" class="collapsed" data-toggle="collapse" data-parent="#accordion">Are you getting it exactly?</a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident , sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- accordion 4 -->
+
+            <div class="panel panel-default">
+              <div class="panel-heading" id="headingFour">
+                <h4 class="panel-title">
+                  <a href="#collapseFour" class="collapsed" data-toggle="collapse" data-parent="#accordion">Are you getting it exactly?</a>
+                </h4>
+              </div>
+              <div id="collapseFour" class="panel-collapse collapse" aria-labelledby="headingFour">
+                <div class="panel-body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident , sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- handphone -->
+        <div class="freeimage wow animate__bounceInRight animate__animated" data-wow-duration=".7s" data-wow-delay=".7s">
+          <div class="col-md-2 col-md-offset-1">
+            <img src="img/front.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end FAQ section -->
+  <section class="video-area wow animate__zoomIn animate__animated" id="video">
+    <div id="color-overlay" class="color-overlay">
+      <div class="video-container">
+        <div id="player">
+          <div class="video-mask"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <div class="video-mask">
+                  <a href="https://www.youtube.com/watch?v=7tz4Ya6gzG4" class="play"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Video Show Section -->
+  <section class="latest-news-area" id="latest">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-title text-center wow animate__zoomIn" data-wow-duration=".2s" data-wow-delay=".2s">
+            <h2> <strong>RECENT BLOGS</strong> </h2>
+            <div class="sub-heading">
+              <p>You can ask the question regarding the issues we will solve that together for sure </p>
+            </div>
+          </div>
+        </div>
+      </div> <br><br>
+      <div class="row">
+        <div class="news-active">
+          <div class="col-md-4 col-sm-6 col-xs-12 wow animate__bounceInLeft" data-wow-duration=".4s" data-wow-delay=".4s">
+            <div class="latest-news-wrap">
+              <div class="news-img">
+                <img src="img/lampion.jpg" alt="image-product" class="img-responsive">
+                <div class="date">
+                  <span>31</span><span>DEC</span>
+                </div>
+              </div>
+              <div class="news-content">
+                <!-- give the icon -->
+                <i><span class="fa fa-facebook"></span></i>
+                <i><span class="fa fa-twitter"></span></i>
+                <i><span class="fa fa-linkedin"></span></i>
+                <i><span class="fa fa-youtube"></span></i>
+                <i><span class="fa fa-whatsapp"></span></i>
+
+                <!-- give some text -->
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nemo labore nam, expedita. Voluptate distinctio ipsum animi optio iure recusandae voluptates pariatur, et, rerum impedit!
+                </p><br>
+                <a href="">Read more...</a>
+              </div>
+            </div>
+          </div>
+          <!-- line break for next news -->
+          <div class="col-md-4 col-sm-6 col-xs-12 wow animate__bounceInLeft animate__animated" data-wow-duration=".4s" data-wow-delay=".4s">
+            <div class="latest-news-wrap">
+              <div class="news-img">
+                <img src="img/lampion.jpg" alt="image-product" class="img-responsive">
+                <div class="date">
+                  <span>31</span><span>DEC</span>
+                </div>
+              </div>
+              <div class="news-content">
+                <!-- give the icon -->
+                <i><span class="fa fa-facebook"></span></i>
+                <i><span class="fa fa-twitter"></span></i>
+                <i><span class="fa fa-linkedin"></span></i>
+                <i><span class="fa fa-youtube"></span></i>
+                <i><span class="fa fa-whatsapp"></span></i>
+
+                <!-- give some text -->
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nemo labore nam, expedita. Voluptate distinctio ipsum animi optio iure recusandae voluptates pariatur, et, rerum impedit!
+                </p><br>
+                <a href="">Read more...</a>
+              </div>
+            </div>
+          </div>
+          <!-- line break for next news -->
+          <div class="col-md-4 col-sm-6 col-xs-12 wow animate__bounceInRight animate__animated" data-wow-duration=".5s" data-wow-delay=".5s">
+            <div class="latest-news-wrap">
+              <div class="news-img">
+                <img src="img/lampion.jpg" alt="image-product" class="img-responsive">
+                <div class="date">
+                  <span>31</span><span>DEC</span>
+                </div>
+              </div>
+              <div class="news-content">
+                <!-- give the icon -->
+                <i><span class="fa fa-facebook"></span></i>
+                <i><span class="fa fa-twitter"></span></i>
+                <i><span class="fa fa-linkedin"></span></i>
+                <i><span class="fa fa-youtube"></span></i>
+                <i><span class="fa fa-whatsapp"></span></i>
+
+                <!-- give some text -->
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nemo labore nam, expedita. Voluptate distinctio ipsum animi optio iure recusandae voluptates pariatur, et, rerum impedit!
+                </p><br>
+                <a href="">Read more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+  <!-- end blog section -->
+  <section class="stat wow animate__zoomIn animate__animated" id="stats" data-wow-duration=".2s" data-wow-delay=".2s">
+    <div class="content-box">
+      <br><br>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 ">
+            <div class="stat-items">
+              <i class="fa fa-tv"></i>
+              <h2><span class="counter text-center wow animate__fadeInLeft animate__animated" data-wow-duration=".2s" data-wow-delay=".2s">3200</span> <span>+</span> </h2>
+              <p>VIEWS</p>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="stat-items">
+              <i class="fa fa-android"></i>
+              <h2><span class="counter text-center wow animate__fadeInLeft animate__animated" data-wow-duration=".4s" data-wow-delay=".4s">2200</span> <span>+</span> </h2>
+              <p>ANDROID USER</p>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="stat-items">
+              <i class="fa fa-apple"></i>
+              <h2><span class="counter text-center wow animate__fadeInLeft animate__animated " data-wow-duration=".6s" data-wow-delay=".6s">3900</span> <span>+</span> </h2>
+              <p>INTERNATIONALY</p>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="stat-items">
+              <i class="fa fa-windows"></i>
+              <h2><span class="counter text-center wow animate__fadeInLeft animate__animated " data-wow-duration=".8s" data-wow-delay=".8s">2500</span> <span>+</span> </h2>
+              <p>WINDOWS SUPPORT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end stats section -->
+  <section class="contact-area" id="contact-areas">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <div class="section-heading wow animate__fadeInUp animate__animated" data-wow-duration=".2s" data-wow-delay=".2s">
+            <h2 class="section-title"><strong><u>LEAVE A MESSAGE</u></strong></h2>
+          </div>
+        </div>
+      </div> <br><br><br>
+      <div class="row wow animate__fadeInUp animate__animated" data-wow-duration=".4s" data-wow-delay=".4s">
+        <div class="col-md-8 col-md-offset-2">
+          <form id="contactForm" class="contact-form">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" name="name" id="name" class="form-control" placeholder="name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" name="email" id="email" class="form-control" placeholder="email" required>
+              </div>
+              <div class="col-md-12"><br>
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="subject" required>
+              </div>
+              <div class="col-md-12"><br>
+                <textarea rows="4" id="message" name="message" class="form-control" placeholder="message" required></textarea>
+              </div>
+              <div class="col-md-12 text-center"><br>
+                <button type="button" name="submit" class="btn" type="submit">Submit Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="contact-infos">
+          <div class="col-md-4 text-center">
+            <div class="contact-item">
+              <span class="contact-icon"> <i class="fa fa-map-marker"></i> </span>
+              <p>
+                68th Oklahoma City, West Oase <br>
+                New York, United States
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="contact-item">
+              <span class="contact-icon"> <i class="fa fa-envelope"></i> </span>
+              <p>
+                info@studio.com
+                Support@studio.com
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="contact-item">
+              <span class="contact-icon"> <i class="fa fa-phone"></i> </span>
+              <p>
+                123 - 099897 - Central Officer <br>
+                123 - 112112 - Fax
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+  <section class="maps wow animate__fadeInUp animate__animated" data-wow-duration=".2s" data-wow-delay=".2s" id="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.840651440347!2d107.70759901487236!3d-6.909649169544353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dcde3ffaeff7%3A0x7d38adc4377f61f8!2sJl.%20Nagrog%2C%20Pasirjati%2C%20Kec.%20Ujung%20Berung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1621569434979!5m2!1sid!2sid"
+      width="1000" height="450" style="border:0; width:100%;" allowfullscreen="" loading="lazy"></iframe>
+    <!-- end maps -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <div class="social-icon">
+              <a href="#"> <i class="fa fa-facebook wow animate__fadeInLeft animate__animated" data-wow-duration=".3s" data-wow-delay=".3s"></i> </a>
+              <a href="#"> <i class="fa fa-twitter wow animate__fadeInLeft animate__animated" data-wow-duration=".6s" data-wow-delay=".6s"></i> </a>
+              <a href="#"> <i class="fa fa-google-plus wow animate__fadeInLeft animate__animated" data-wow-duration=".9s" data-wow-delay=".9s"></i> </a>
+              <a href="#"> <i class="fa fa-pinterest wow animate__fadeInLeft animate__animated" data-wow-duration="1.2s" data-wow-delay="1.2s"></i> </a>
+              <a href="#"> <i class="fa fa-rss wow animate__fadeInLeft animate__animated" data-wow-duration="1.4s" data-wow-delay="1.4s"></i> </a>
+              <a href="#"> <i class="fa fa-linkedin wow animate__fadeInLeft animate__animated" data-wow-duration="1.6s" data-wow-delay="1.6s"></i> </a>
+              <a href="#"> <i class="fa fa-youtube-square wow animate__fadeInLeft animate__animated" data-wow-duration="1.8s" data-wow-delay="1.8s"></i> </a>
+              <a href="#"> <i class="fa fa-vimeo wow animate__fadeInLeft animate__animated" data-wow-duration="2s" data-wow-delay="2s"></i> </a>
+            </div> <br>
+            <div class="copyright">
+              <p class="footer-logo wow animate__bounceInUp animate__animated" data-wow-duration=".2s" data-wow-delay=".2s">
+                &copy; <img src="img/logo.png" alt="">
+              </p>
+              <div class="border-now">
+
+              </div>
+              <p style="font-size:12px; font-weight:400; color:deepskyblue; padding:15px;">
+                Made With <strong style="color:red;">❤ </strong>by Arief Kurniawan
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.ripples-min.js" type="text/javascript"></script>
+    <script src="js/typed.min.js" type="text/javascript"></script>
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+    <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
+    <script src="js/jquery.slicknav.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/smoothScroll.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+</body>
+
+</html>
